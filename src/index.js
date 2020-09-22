@@ -4,5 +4,7 @@ import App from "./App";
 import "./index.css";
 import HelloWorld from "./state-drills/HelloWorld";
 import Bomb from "./state-drills/Bomb";
+import Tabs from "./state/Tabs";
+import Accordion from "./state-drills/Accordion";
 
 ReactDOM.render(<App />, document.getElementById("root"));

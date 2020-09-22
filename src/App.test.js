@@ -3,7 +3,7 @@ import App from "./App";
 import ReactDOM from "react-dom";
 
 it("renders without crashing", () => {
-  const div = document.createElemnet("div");
+  const div = document.createElement("div");
   ReactDOM.render(<App />, div);
   //clean up code
   ReactDOM.unmountComponentAtNode(div);
